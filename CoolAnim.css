@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-parent {
+    display: flex;
+}
+
+.box1 {
+    width: 500px;
+    height: 1000px;
+    background-image: linear-gradient(red,yellow,blue);
+    animation-name: anim1;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anim1 {
+    10% {
+    background-image: linear-gradient(yellow,red,blue);
+    }
+    25% {
+        background-image: linear-gradient(yellow,blue,red);
+    }
+    30% {
+       background-image:linear-gradient(blue,yellow,red); 
+    }
+    45% {
+        background-image: linear-gradient(blue, red, yellow);
+    }
+    50% {
+        background-image: linear-gradient(red,blue,yellow);
+    }
+    75% {
+        background-image: linear-gradient(red,yellow,blue);
+    }
+    100% {
+        background-image: linear-gradient(red,yellow,blue);
+    }
+}
+
+.box1Shadow {
+    width: 250px;
+    height: 1000px;
+    background-image: linear-gradient(maroon,goldenrod,navy);
+    animation-name: anim2;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes anim2 {
+    10% {
+    background-image: linear-gradient(goldenrod,maroon,navy);
+    }
+    25% {
+        background-image: linear-gradient(goldenrod,maroon,navy);
+    }
+    30% {
+       background-image:linear-gradient(navy,goldenrod,maroon); 
+    }
+    45% {
+        background-image: linear-gradient(navy, maroon, goldenrod);
+    }
+    50% {
+        background-image: linear-gradient(maroon,navy,goldenrod);
+    }
+    75% {
+        background-image: linear-gradient(maroon,goldenrod,navy);
+    }
+    100% {
+        background-image: linear-gradient(maroon,goldenrod,navy);
+    }
+}
+.box2 {
+    width: 500px;
+    height: 1000px;
+    background-image: linear-gradient(green,orange,purple);
+    animation-name: anim3;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anim3 {
+    10% {
+    background-image: linear-gradient(orange,green,purple);
+    }
+    25% {
+        background-image: linear-gradient(orange,green,purple);
+    }
+    30% {
+       background-image:linear-gradient(purple,orange,green); 
+    }
+    45% {
+        background-image: linear-gradient(purple, green, orange);
+    }
+    50% {
+        background-image: linear-gradient(green,purple,orange);
+    }
+    75% {
+        background-image: linear-gradient(green,orange,purple);
+    }
+    100% {
+        background-image: linear-gradient(green,orange,purple);
+    }
+}
